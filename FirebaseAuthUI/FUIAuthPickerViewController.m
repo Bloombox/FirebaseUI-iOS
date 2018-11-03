@@ -73,6 +73,7 @@ static const CGFloat kButtonContainerBottomMargin = 56.0f;
 - (void)viewDidLoad {
   [super viewDidLoad];
   self.view.backgroundColor = UIColor.clearColor;
+  self.modalPresentationStyle = UIModalPresentationCurrentContext;
 
   if (!self.authUI.shouldHideCancelButton) {
     UIBarButtonItem *cancelBarButton =
