@@ -146,7 +146,7 @@ static NSString *const kFirebaseAuthUIFrameworkMarker = @"FirebaseUI-iOS";
 }
 
 - (void)signInWithProviderUI:(id<FUIAuthProvider>)providerUI
-    presentingViewController:(FUIAuthBaseViewController *)presentingViewController
+    presentingViewController:(UIViewController *)presentingViewController
                 defaultValue:(nullable NSString *)defaultValue {
 
   // Sign out first to make sure sign in starts with a clean state.
