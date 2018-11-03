@@ -379,6 +379,13 @@ static NSString *const kAuthUICodingKey = @"authUI";
   });
 }
 
+- (void)viewDidLoad {
+  [super viewDidLoad];
+
+  // make background blue
+  self.view.backgroundColor = UIColor.blueColor
+}
+
 - (void)decrementActivity {
   _activityCount--;
 
