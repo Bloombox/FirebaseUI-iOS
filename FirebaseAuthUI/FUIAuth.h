@@ -97,14 +97,6 @@ __attribute__((deprecated("Instead use authUI:didSignInWithAuthDataResult:error:
     didFinishOperation:(FUIAccountSettingsOperationType)operation
                  error:(nullable NSError *)error;
 
-/** @fn signInWithProviderUI:
- @brief Sign in with a specific provider.
- @param providerUI Auth provider to use.
- */
-- (void)signInWithProviderUI:(id<FUIAuthProvider>)providerUI
-    presentingViewController:(UIViewController *)presentingViewController
-                defaultValue:(nullable NSString *)defaultValue;
-
 /** @fn authPickerViewControllerForAuthUI:
     @brief Sent to the receiver to ask for an instance of @c FUIAuthPickerViewController subclass
         to allow UI customizations.
