@@ -35,15 +35,32 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick a service to use when signing in to SkunkWorks. We don't force you to create a password." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbd-Ga-Q5M">
+                    <rect key="frame" x="40" y="206" width="295" height="61"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOl-rF-vHb">
+                    <rect key="frame" x="40" y="292" width="135" height="30"/>
+                    <state key="normal" title="I need account help">
+                        <color key="titleColor" red="0.14117647059999999" green="0.47843137250000001" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
             </subviews>
             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
             <constraints>
                 <constraint firstItem="Xez-8g-dy2" firstAttribute="leading" secondItem="kfP-Vq-eU2" secondAttribute="leadingMargin" id="146-w9-1AF"/>
                 <constraint firstItem="LCx-xF-v9V" firstAttribute="top" secondItem="kfP-Vq-eU2" secondAttribute="top" constant="90" id="17a-1I-NYK"/>
+                <constraint firstItem="WOl-rF-vHb" firstAttribute="leading" secondItem="kfP-Vq-eU2" secondAttribute="leading" constant="40" id="1U0-uF-y3v"/>
                 <constraint firstItem="Xez-8g-dy2" firstAttribute="trailing" secondItem="kfP-Vq-eU2" secondAttribute="trailingMargin" id="Hoh-mG-IDs"/>
                 <constraint firstItem="LCx-xF-v9V" firstAttribute="leading" secondItem="kfP-Vq-eU2" secondAttribute="leading" constant="40" id="Jox-kW-WSt"/>
                 <constraint firstAttribute="trailing" secondItem="LCx-xF-v9V" secondAttribute="trailing" constant="40" id="Sed-qm-icW"/>
+                <constraint firstItem="Pbd-Ga-Q5M" firstAttribute="leading" secondItem="kfP-Vq-eU2" secondAttribute="leading" constant="40" id="WHK-vz-Vcg"/>
+                <constraint firstAttribute="trailing" secondItem="Pbd-Ga-Q5M" secondAttribute="trailing" constant="40" id="Xa0-c2-3lf"/>
                 <constraint firstAttribute="bottom" secondItem="Xez-8g-dy2" secondAttribute="bottom" id="uZS-Dj-pya"/>
+                <constraint firstItem="Pbd-Ga-Q5M" firstAttribute="top" secondItem="LCx-xF-v9V" secondAttribute="bottom" constant="30" id="vXC-C9-BKx"/>
+                <constraint firstItem="WOl-rF-vHb" firstAttribute="top" secondItem="Pbd-Ga-Q5M" secondAttribute="bottom" constant="25" id="xfa-sb-Dai"/>
             </constraints>
             <point key="canvasLocation" x="25.5" y="51.5"/>
         </view>

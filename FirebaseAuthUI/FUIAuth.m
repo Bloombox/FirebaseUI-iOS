@@ -132,7 +132,7 @@ static NSString *const kFirebaseAuthUIFrameworkMarker = @"FirebaseUI-iOS";
   }
   nav = [[UINavigationController alloc] initWithRootViewController:controller];
   [nav setNavigationBarHidden:true];
-  nav.view.backgroundColor = UIColor.clearColor;
+  nav.view.backgroundColor = UIColor.whiteColor;
   return nav;
 }
 

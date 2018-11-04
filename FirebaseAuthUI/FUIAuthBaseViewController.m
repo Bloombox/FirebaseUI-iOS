@@ -383,11 +383,9 @@ static NSString *const kAuthUICodingKey = @"authUI";
   [super viewDidLoad];
 
   // make background blue
-  self.view.backgroundColor = UIColor.clearColor;
-  self.modalPresentationStyle = UIModalPresentationCurrentContext;
+  self.view.backgroundColor = UIColor.whiteColor;
   [self.navigationController setNavigationBarHidden:true animated:false];
-  self.navigationController.view.backgroundColor = UIColor.clearColor;
-  self.navigationController.modalPresentationStyle = UIModalPresentationCurrentContext;
+  self.navigationController.view.backgroundColor = UIColor.whiteColor;
 
   [[UIApplication sharedApplication] keyWindow].backgroundColor = UIColor.whiteColor;
 }

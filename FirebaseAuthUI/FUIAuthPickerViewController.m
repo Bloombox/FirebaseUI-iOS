@@ -28,7 +28,7 @@
 /** @var kSignInButtonWidth
     @brief The width of the sign in buttons.
  */
-static const CGFloat kSignInButtonWidth = 240.0f;
+static const CGFloat kSignInButtonWidth = 295.0f;
 
 /** @var kSignInButtonHeight
     @brief The height of the sign in buttons.
@@ -72,8 +72,7 @@ static const CGFloat kButtonContainerBottomMargin = 56.0f;
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  self.view.backgroundColor = UIColor.clearColor;
-  self.modalPresentationStyle = UIModalPresentationCurrentContext;
+  self.view.backgroundColor = UIColor.whiteColor;
 
   if (!self.authUI.shouldHideCancelButton) {
     UIBarButtonItem *cancelBarButton =
