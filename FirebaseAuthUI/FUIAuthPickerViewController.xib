@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.30.1" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.19.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -31,11 +29,20 @@
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences" textContentType="url"/>
                     <dataDetectorType key="dataDetectorTypes" link="YES"/>
                 </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick a way to sign in" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LCx-xF-v9V">
+                    <rect key="frame" x="40" y="90" width="295" height="86"/>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="36"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
             <constraints>
                 <constraint firstItem="Xez-8g-dy2" firstAttribute="leading" secondItem="kfP-Vq-eU2" secondAttribute="leadingMargin" id="146-w9-1AF"/>
+                <constraint firstItem="LCx-xF-v9V" firstAttribute="top" secondItem="kfP-Vq-eU2" secondAttribute="top" constant="90" id="17a-1I-NYK"/>
                 <constraint firstItem="Xez-8g-dy2" firstAttribute="trailing" secondItem="kfP-Vq-eU2" secondAttribute="trailingMargin" id="Hoh-mG-IDs"/>
+                <constraint firstItem="LCx-xF-v9V" firstAttribute="leading" secondItem="kfP-Vq-eU2" secondAttribute="leading" constant="40" id="Jox-kW-WSt"/>
+                <constraint firstAttribute="trailing" secondItem="LCx-xF-v9V" secondAttribute="trailing" constant="40" id="Sed-qm-icW"/>
                 <constraint firstAttribute="bottom" secondItem="Xez-8g-dy2" secondAttribute="bottom" id="uZS-Dj-pya"/>
             </constraints>
             <point key="canvasLocation" x="25.5" y="51.5"/>
