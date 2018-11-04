@@ -385,8 +385,15 @@ static NSString *const kAuthUICodingKey = @"authUI";
   // make background blue
   self.view.backgroundColor = UIColor.clearColor;
   self.modalPresentationStyle = UIModalPresentationCurrentContext;
+  self.navigationController.navigationBarHidden = true
   self.navigationController.view.backgroundColor = UIColor.clearColor;
   self.navigationController.modalPresentationStyle = UIModalPresentationCurrentContext;
+
+  [[UIApplication sharedApplication] keyWindow].backgroundColor = UIColor.clearColor;
+}
+
+- (BOOL)prefersStatusBarHidden {
+  return true;
 }
 
 - (void)decrementActivity {
