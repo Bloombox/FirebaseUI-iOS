@@ -33,17 +33,17 @@ static const CGFloat kSignInButtonWidth = 295.0f;
 /** @var kSignInButtonHeight
     @brief The height of the sign in buttons.
  */
-static const CGFloat kSignInButtonHeight = 40.0f;
+static const CGFloat kSignInButtonHeight = 50.0f;
 
 /** @var kSignInButtonVerticalMargin
     @brief The vertical margin between sign in buttons.
  */
-static const CGFloat kSignInButtonVerticalMargin = 24.0f;
+static const CGFloat kSignInButtonVerticalMargin = 20.0f;
 
 /** @var kButtonContainerBottomMargin
     @brief The magin between sign in buttons and the bottom of the screen.
  */
-static const CGFloat kButtonContainerBottomMargin = 56.0f;
+static const CGFloat kButtonContainerBottomMargin = 40.0f;
 
 @implementation FUIAuthPickerViewController {
   UIView *_buttonContainerView;
