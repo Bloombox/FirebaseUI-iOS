@@ -48,10 +48,10 @@
                     </state>
                 </button>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Az2-QC-91L">
-                    <rect key="frame" x="0.0" y="492" width="375" height="320"/>
+                    <rect key="frame" x="0.0" y="522" width="375" height="290"/>
                     <color key="backgroundColor" red="0.29803921568627451" green="0.61568627450980395" blue="0.18431372549019609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="320" id="HrW-34-XO1"/>
+                        <constraint firstAttribute="height" constant="290" id="HrW-34-XO1"/>
                     </constraints>
                 </view>
             </subviews>
