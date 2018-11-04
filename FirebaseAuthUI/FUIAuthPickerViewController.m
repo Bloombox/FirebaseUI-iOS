@@ -43,7 +43,7 @@ static const CGFloat kSignInButtonVerticalMargin = 20.0f;
 /** @var kButtonContainerBottomMargin
     @brief The magin between sign in buttons and the bottom of the screen.
  */
-static const CGFloat kButtonContainerBottomMargin = 40.0f;
+static const CGFloat kButtonContainerBottomMargin = 45.0f;
 
 @implementation FUIAuthPickerViewController {
   UIView *_buttonContainerView;
