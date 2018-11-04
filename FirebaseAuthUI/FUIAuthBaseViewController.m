@@ -385,6 +385,8 @@ static NSString *const kAuthUICodingKey = @"authUI";
   // make background blue
   self.view.backgroundColor = UIColor.clearColor;
   self.modalPresentationStyle = UIModalPresentationCurrentContext;
+  self.navigationController.view.backgroundColor = UIColor.clearColor;
+  self.navigationController.modalPresentationStyle = UIModalPresentationCurrentContext;
 }
 
 - (void)decrementActivity {
