@@ -185,7 +185,7 @@ static NSString *const kFirebaseAuthUIFrameworkMarker = @"FirebaseUI-iOS";
     }
 
     // Check for the presence of an anonymous user and whether automatic upgrade is enabled.
-    if (self.auth.currentUser.isAnonymous && self.shouldAutoUpgradeAnonymousUsers) {
+    if (self.shouldAutoUpgradeAnonymousUsers) {
       [self autoUpgradeAccountWithProviderUI:providerUI
                     presentingViewController:presentingViewController
                                   credential:credential
